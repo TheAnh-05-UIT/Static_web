@@ -1,6 +1,6 @@
 # Tổng hợp website tĩnh viết bằng html, css và js
 
-## :pushpin: Author [Link Github của tac giả](https://github.com/LqhResearch)
+## :pushpin: Author [Link Github của tác giả](https://github.com/LqhResearch)
 
 ## :pushpin: Danh sách template
 1. Create-Survey-Form: [Mã nguồn](Create-Survey-Form) & [Live demo](https://lqhresearch.github.io/Frontend-Web/Create-Survey-Form/)
