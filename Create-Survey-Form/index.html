@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tạo bài khảo sát</title>
+    <link rel="icon" href="./assets/img/favicon.png">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous"
+        referrerpolicy="no-referrer" />
+    <!-- My style -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <form method="POST">
+        <div class="form">
+            <div class="form__container">
+                <div class="form__button">
+                    <div class="btn" id="add-question" title="Thêm nội dung"><i class="fas fa-plus-circle"></i></div>
+                    <div class="btn" id="add-radio" title="Thêm trắc nghiệm"><i class="fas fa-check-circle"></i></div>
+                    <div class="btn" id="add-check" title="Thêm hộp kiểm"><i class="fas fa-check-square"></i></button>
+                    </div>
+                </div>
+                <div class="card background"></div>
+                <div class="card">
+                    <div class="input__group">
+                        <label>Tiêu đề: </label>
+                        <input type="text" />
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="input__group">
+                        <label>Mô tả: </label>
+                        <input type="text" />
+                    </div>
+                </div>
+            </div>
+            <div class="btn-form">
+                <button class="btn btn-success">Tạo</button>
+                <a class="btn btn-danger" href="index.html">Hủy</a>
+            </div>
+        </div>
+    </form>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
