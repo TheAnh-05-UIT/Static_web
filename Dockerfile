@@ -12,3 +12,7 @@ EXPOSE 80
 
 # Lệnh chạy Nginx ở chế độ foreground (để container không tắt)
 CMD ["nginx", "-g", "daemon off;"]
+
+# docker build -t my-static-web .
+# docker run -d -p 8080:8000 --name static-web my-static-web
+
