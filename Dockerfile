@@ -14,5 +14,5 @@ EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 
 # docker build -t my-static-web .
-# docker run -d -p 8080:8000 --name static-web my-static-web
+# docker run -d -p 8080:80 --name static-web my-static-web
 
